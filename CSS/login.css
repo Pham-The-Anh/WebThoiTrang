@@ -1,0 +1,7 @@
+nav{
+    border-bottom: 2px solid gainsboro;
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+  

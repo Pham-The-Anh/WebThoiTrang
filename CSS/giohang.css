@@ -1,0 +1,55 @@
+
+/* .cart-products img{
+    width: 150px;
+    height: 150px;
+} */
+/* .card-price {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    margin-bottom: 30px;
+}
+.card-price div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+} */
+
+/* .card-price .khuyenmai {
+    border-bottom: 1px solid gainsboro; 
+    padding-bottom: 5px;
+}
+.card-price .vanchuyen {
+    border-bottom: 1px solid gainsboro; 
+    padding-bottom: 5px;
+} */
+/* .button-container {
+    width: 100%; 
+    margin-top: 10px;
+} */
+
+/* .btn {
+    width: 100%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+} */
+textarea {
+    width: 100%; 
+    padding: 10px;
+    border-radius: 5px; 
+    border: 1px solid gainsboro; 
+    font-size: 14px; 
+    line-height: 1.5;
+}
+
+/* textarea:focus {
+    outline: none;
+    border-color: gray;
+}
+
+textarea::placeholder {
+    color: #999;
+} */

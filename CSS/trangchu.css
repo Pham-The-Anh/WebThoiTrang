@@ -1,0 +1,119 @@
+
+.carousel-control-prev,
+.carousel-control-next{
+  margin-top: 100px;
+}
+  
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu .row{
+    width: 1000px;
+}
+
+.dropdown-menu .col-sm-3:hover {
+  border: none; 
+}
+
+
+/* Phần bottun sản phẩm */
+/* .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.product .image-wrapper img {
+    transition: transform 0.3s ease;
+}  
+.product .image-wrapper:hover img {
+    transform: scale(1.1);
+  } */
+/* .product-info {
+    position: relative; 
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease; 
+} */
+/* .col-sm-3:hover{
+  border: 1px solid gainsboro;
+} */
+
+/* .product-info .buy-button {
+    display: none; 
+} */
+  
+
+  /* .col-sm-3:hover .product-info {
+    display: block; 
+  }
+  
+  .btn {
+    display: none; 
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+  }
+  
+  .col-sm-3:hover .btn {
+    display: block; 
+  }
+  .product .col-sm-3 {
+    width: 300px;
+    margin: 0 auto;
+} */
+
+
+/* ---------------------------------------------------------------------------- */
+.carousel{
+  margin-bottom: 10px;
+}
+
+/* Thiết lập margin giữa các content-item */
+.carousel-content .content-item {
+  margin-right: 10px; 
+}
+
+
+.content-info{
+  text-align: center;
+  margin-top: 5px;
+  padding-bottom: 30px;
+}
+.content-info button{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: none;
+  position: absolute; 
+  bottom: -30px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 2; 
+}
+/* Thiết lập các phần tử khác trong content-item */
+.content-info p {
+  position: relative; 
+  /* z-index: 1;  */
+}
+.image-content:hover + .content-info button{
+ display: block;
+}
+.content-info:hover button{
+  display: block;
+}
+/* .content-item {
+  margin-right: 60px;
+  border: 1px solid transparent;
+  transition: border-color 0.5s ease;
+} */
+.content-item:hover {
+  border-color: gainsboro;
+}
+/* .content-info {
+  margin-top: 2px;
+} */
+/* .product-info .buy-button{
+  width: auto;
+  text-align: center;
+} */

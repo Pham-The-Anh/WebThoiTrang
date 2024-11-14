@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phạm Thế Anh - ps33436</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/trangchu.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+</head>
+<body>
+    <header>
+        <div class="card-header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" style="box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);">
+                <div class="container-fluid">
+                  <a class="navbar-brand ms-5" href="#!logo"><img src="IMG/juno1.png" class="img-fluid w-25"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HÀNG MỚI</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle-split" href="#" role="button" data-bs-toggle="dropdown-menu" aria-expanded="false">
+                          SẢN PHẨM
+                        </a>
+                        <ul class="dropdown-menu">
+                          <div class="row">
+                            <div class="col-sm-3">
+                              <li><a class="dropdown-item" href="#">GIÀY</a></li>
+                              <li><a class="dropdown-item" href="#">Giày cao gót</a></li>
+                              <li><a class="dropdown-item" href="#">Giày sandal</a></li>
+                              <li><a class="dropdown-item" href="#">Giày Sneakers</a></li>
+                              <li><a class="dropdown-item" href="#">Giày búp bê</a></li>
+                              <li><a class="dropdown-item" href="#">Dép guốc</a></li>
+                            </div>
+                            <div class="col-sm-3">
+                              <li><a class="dropdown-item" href="#">TÚI</a></li>
+                              <li><a class="dropdown-item" href="#">Túi cỡ nhỏ</a></li>
+                              <li><a class="dropdown-item" href="#">Túi cỡ trung</a></li>
+                              <li><a class="dropdown-item" href="#">Túi cỡ lớn</a></li>
+                              <li><a class="dropdown-item" href="#">Balo</a></li>
+                              <li><a class="dropdown-item" href="#">Ví - Clutch</a></li>
+                            </div>
+                            <div class="col-sm-3">
+                              <li><a class="dropdown-item" href="#">PHỤ KIỆN</a></li>
+                              <li><a class="dropdown-item" href="#">Mắt kính</a></li>
+                              <li><a class="dropdown-item" href="#!vo">Vớ</a></li>
+                            </div>
+                            <div class="col-sm-3">
+                              <li><a class="dropdown-item" href="#">QUẦN ÁO</a></li>
+                              <li><a class="dropdown-item" href="#">Đầm & Jumpsuit</a></li>
+                              <li><a class="dropdown-item" href="#">Áo</a></li>
+                              <li><a class="dropdown-item" href="#">Quần</a></li>
+                              <li><a class="dropdown-item" href="#">Váy</a></li>
+                              <li><a class="dropdown-item" href="#">Khoác</a></li>
+                            </div>
+                          </div>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">SALE MUA 1 TẶNG 1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">SALE QUẦN ÁO UP TO 50%</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">SHOWROOM</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex align-items-center" style="width: 200px; margin-right: 60px; border: none;">
+                      <input class="form-control form-control-sm me-2" type="search" placeholder="Tìm kiếm" aria-label="Search" style="border-radius: 20px 0 0 20px; border-right: none; border-width: 1px;">
+                      <button class="btn btn-success btn-sm" type="submit" style="border-radius: 0 20px 20px 0; padding: 5px 10px; background-color: transparent; border-color: transparent; border-width: 1px;">
+                          <i class="fa-solid fa-magnifying-glass" style="color: gray;"></i>
+                      </button>
+                    </form>                  
+                    <ul class="navbar-nav mb-2 mb-lg-0" style="margin-right: 50px;">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#!login"><i class="fa-regular fa-user"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <div class="offcanvas-title" id="offcanvasRightLabel" style="border-bottom: 1px solid gray;">
+                  <h5>GIỎ HÀNG</h5>
+                  <p>Bạn đang có 0 san phẩm trong giỏ hàng.</p>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  <p>Hiện chưa có sản phẩm</p>
+                  <div class="product-cart" style="border-bottom: 2px solid black; margin-top: 10px;">
+
+                  </div>
+                  <div style="margin-top: 10px;">
+                    <strong>
+                      <p>TỔNG TIỀN TẠM TÍNH</p>
+                      <div class="price-cart">
+
+                      </div>
+                    </strong>
+                    <a href="#!cart">
+                      <button class="btn btn-dark" style="width: 100%; margin-top: 20px;">
+                        XEM GIỎ HÀNG
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-sm-7 img-thumbnail">
+                <div class="row">
+                    <div class="col-sm-6 mb-2">
+                        <img src="imgChitiet/chitietsp2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <img src="imgChitiet/chitietsp7.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <img src="imgChitiet/chitietsp8.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <img src="imgChitiet/chitietsp3.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="imgChitiet/chitietsp1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="imgChitiet/chitietsp4.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="imgChitiet/chitietsp5.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="imgChitiet/chitietsp6.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 mt-5">
+                <div class="title ms-5">
+                    <h7>Balo Buckle Phối Si Vân</h7>
+                </div>
+                <div class="price d-flex align-items-center ms-5">
+                    <p class="text-muted" style="opacity: 0.6; margin-bottom: 0;"><s>780,000đ</s></p>
+                    <p style="color: red; margin-bottom: 0; margin-left: 10px;">546,000đ</p>
+                </div>
+                <div class="btn btn-dark d-flex align-items-center justify-content-center ms-5 mt-5">
+                    <span class="text-center">MUA NGAY</span>
+                </div>
+                <div class="mt-5 ms-5">
+                    <div class="mb-4">
+                        <h5 class="mb-0 fs-6">MIỄN PHÍ GIAO HÀNG TOÀN QUỐC</h5>
+                        <span class="d-block small">(Cho hoá đơn từ 300.000đ)</span>
+                    </div>
+                    <div class="mb-4">
+                       <h5 class="mb-0 fs-6"> ĐỔI TRẢ DỄ DÀNG</h5>
+                        <span class="d-block small">(Đổi trả 30 ngày cho Giày và Túi; 7 ngày cho Phụ kiện nếu lỗi nhà sản xuất)</span>
+                    </div>
+                    <div class="mb-4">
+                        <h5 class="mb-0 fs-6">TỔNG ĐÀI BÁN HÀNG 1800 1162</h5>
+                        <span class="d-block small">(Miễn phí từ 8:00 - 21:00 mỗi ngày)</span>
+                    </div>
+                </div>
+                <div class="tab">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                          <button class="nav-link active text-black" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">MÔ TẢ SẢN PHẨM</button>
+                          <button class="nav-link text-black" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">CHI TIẾT</button>
+                        </div>
+                      </nav>
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                            <div class="mt-4">
+                                <P class="small">
+                                    Ba lô có vân trang trí khóa kim loại hiện đại
+                                    <br>
+                                    Thiết kế dễ ứng dụng với 3 sự lựa chọn về màu sắc rất nhã nhặn. Điểm nhấn chiếc ba lô nằm ở phần nắp gập có khóa kim loại nổi bật và lớp vân trên da
+                                    <br>
+                                    Bên trong có ngăn đựng lớn, rộng rãi. Ba lô có quai để xách hoặc đeo
+                                    <br>
+                                    Chất liệu da tổng hợp cao cấp bền đẹp, dễ vệ sinh
+                                </P>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-sm-6 mt-5">
+                                    <ul class="small">
+                                        <li>Mã sản phẩm: BL111</li>
+                                        <li>Kiểu dáng: Balo thời trang</li>
+                                        <li>Chất liệu: Si mờ vân</li>
+                                        <li>Màu sắc: Đen-Kem-Nâu</li>
+                                        <li>Kích cỡ: 24cmx27cmx10cm</li>
+                                        <li>Xuất xứ: Trung Quốc</li>
+                                        <li>Giá đã bao gồm VAT</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="IMG/chitietsp1.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-5">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button class="nav-link active text-black" id="nav-homes-tab" data-bs-toggle="tab" data-bs-target="#nav-homes" type="button" role="tab" aria-controls="nav-homes" aria-selected="true">CHÍNH SÁCH ĐỔI TRẢ</button>
+                      <button class="nav-link text-black" id="nav-profiles-tab" data-bs-toggle="tab" data-bs-target="#nav-profiles" type="button" role="tab" aria-controls="nav-profiles" aria-selected="false">HƯỚNG DẪN BẢO QUẢN</button>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-homes" role="tabpanel" aria-labelledby="nav-home-tabs" tabindex="0">
+                        <div class="mt-4">
+                            <p class="small">
+                                JUNO hiện đang áp dụng chính sách Đổi/Trả cho các sản phẩm như sau: <br>
+                                - Trong vòng 30 ngày kể từ ngày nhận sản phẩm Túi, Ví, Giày (Hàng Nguyên Giá) <br>
+                                - Trong vòng 7 ngày đối với sản phẩm Khuyến mãi <br>
+                                - Phụ kiện (chỉ áp dụng với mắt kính, trang sức) và túi canvas được đổi/trả trong 7 ngày trong trường hợp có lỗi sản xuất <br>
+                                - Không áp dụng đổi trả Online với đơn hàng tại hệ thống Cửa hàng Đại lý và Cửa hàng Juno tại TTTM Sense City Phạm Văn Đồng
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profiles" role="tabpanel" aria-labelledby="nav-profile-tabs" tabindex="0">
+                        <p class="mt-4 small">
+                            HƯỚNG DẪN BẢO QUẢN GIÀY >> Xem chi tiết
+                            <br>
+                            HƯỚNG DẪN BẢO QUẢN TÚI XÁCH >> Xem chi tiết
+                            <br>
+                            HƯỚNG DẪN BẢO QUẢN PHỤ KIỆN >> Xem chi tiết
+                        </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="card-footer">
+          <footer>
+            <div class="footer-top">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="title-1">
+                    <p>GỌI MUA HÀNG ONLINE (08:00 - 21: 00 mỗi ngày)</p>
+                    <h4>1800 1162</h4>
+                    <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+                  </div>
+                  <div class="title-2">
+                    <p>GÓP Ý & KHIẾU NẠI (08:30 - 20:30)</p>
+                    <h4>1800 1162</h4>
+                    <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <p>HỆ THỐNG SHOWROOM</p>
+                    <img src="IMG//footer2.jpg" class="img-fluid" alt="">
+                    <div class="located"><a href="#">Xem địa chỉ hệ thống 63 showroom</a><i class="fa-solid fa-caret-right"></i></div>
+                </div>
+                <div class="col-sm-4">
+                    <p>FANPAGE CỦA CHÚNG TÔI</p>
+                    <img src="IMG/footer1.jpg" class="img-fluid" alt="">
+                    <div class="icon-brand">
+                      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                      <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+                <p>COPY BY PHẠM THẾ ANH</p>
+            </div>
+          </footer>
+        </div>
+  </footer>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/3049bbb715.js" crossorigin="anonymous"></script>
+</body>
+</html>
